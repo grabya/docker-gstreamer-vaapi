@@ -2,8 +2,8 @@
 set -e
 
 #change 'master' to '1.8' if you want to build stable gstreamer branch
-GST_BRANCH="master"
-VAAPI_BRANCH="master"
+GST_BRANCH="1.8"
+VAAPI_BRANCH="1.8"
 
 DIST_DIR=/opt/gstreamer-dist-$GST_BRANCH
 BUILD_DIR=/opt/gstreamer-build-$GST_BRANCH
