@@ -1,7 +1,7 @@
 #!/bin/bash
 
-time /opt/gstreamer-dist-master/bin/gst-launch-1.0 \
-    --gst-plugin-path=/opt/gstreamer-dist-master/lib \
+time /opt/gstreamer-dist-1.8/bin/gst-launch-1.0 \
+    --gst-plugin-path=/opt/gstreamer-dist-1.8/lib \
     -v --gst-debug-level=0 --gst-debug-no-color \
     filesrc location=/opt/moscow24.ts ! queue ! tsdemux name=tdemux \
     tdemux. ! queue ! audio/mpeg ! mpegaudioparse ! avdec_mp3 ! audioresample ! audioconvert ! faac bitrate=64000 ! queue ! tmux. \
