@@ -1,3 +1,8 @@
+#
+# started modifications to support nvidia also. hope to use as based docker for a player
+#
+
+
 # gstreamer + gstreamer-vaapi docker image for Intel Quick Sync decode/encode/vpp processing
 
 ## For starting need to run following command:
